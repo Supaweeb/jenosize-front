@@ -1,0 +1,7 @@
+service: staging
+runtime: nodejs14
+
+handlers:
+  - url: /.*
+    secure: always
+    script: auto
